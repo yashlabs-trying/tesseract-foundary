@@ -6,6 +6,7 @@ import time
 from ..config import AppConfig
 from .. import __version__
 from ..engine import InferencePipeline, ModelSpec, BackendType
+from ..monitoring import MetricsMiddleware, MetricsCollector
 from .schemas import PredictRequest, PredictResponse, ModelInfo, HealthResponse
 from .auth import APIKeyAuth, AuthConfig
 
@@ -35,6 +36,7 @@ def create_app(config: AppConfig) -> FastAPI:
         allow_methods=["*"],
         allow_headers=["*"],
     )
+    app.add_middleware(MetricsMiddleware)
 
     @app.get("/health", response_model=HealthResponse)
     def health(api_key: Optional[str] = Depends(get_auth_header)):
@@ -108,5 +110,18 @@ def create_app(config: AppConfig) -> FastAPI:
             _pipeline.shutdown()
             _pipeline = None
         return {"status": "unloaded"}
+
+    @app.get("/v1/metrics")
+    def get_metrics(api_key: Optional[str] = Depends(get_auth_header)):
+        if api_key and not auth.verify(api_key):
+            raise HTTPException(status_code=403, detail="Invalid API key")
+        collector = MetricsCollector()
+        return collector.snapshot()
+
+    @app.on_event("shutdown")
+    def shutdown():
+        global _pipeline
+        if _pipeline:
+            _pipeline.shutdown()
 
     return app
