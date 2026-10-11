@@ -19,12 +19,16 @@ class ServerConfig(BaseModel):
 
 class AppConfig(BaseModel):
     name: str = "tesseract-foundary"
-    version: str = "1.0.0"
+    version: str = "2.0.0"
     debug: bool = False
     logging: LoggingConfig = LoggingConfig()
     server: ServerConfig = ServerConfig()
     model_dir: str = "./models"
+    model_name: str = "default"
     cache_dir: str = "./cache"
+    backend: str = "default"
+    device: str = "cpu"
+    api_key_enabled: bool = False
 
 
 def load_config(path: str = "config.yaml") -> AppConfig:
@@ -32,5 +36,6 @@ def load_config(path: str = "config.yaml") -> AppConfig:
     if p.exists():
         with open(p) as f:
             data = yaml.safe_load(f)
-        return AppConfig(**data)
+        if data:
+            return AppConfig(**data)
     return AppConfig()
