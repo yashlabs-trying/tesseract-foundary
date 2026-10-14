@@ -1,0 +1,14 @@
+Filesystem         1B-blocks          Used     Available Use% Mounted on
+overlay          32212254720   21586513920   10625740800  68% /
+tmpfs               67108864             0      67108864   0% /dev
+shm              62000001024             0   62000001024   0% /dev/shm
+/dev/sda3       921722613760   34575224832  840250982400   4% /usr/bin/nvidia-smi
+tmpfs           540967104512             0  540967104512   0% /sys/fs/cgroup
+tmpfs           108193423360      67366912  108126056448   1% /run/nvidia-persistenced/socket
+/dev/md0p1     7679093243904 3778236751872 3900856492032  50% /etc/hosts
+tmpfs                   4096          4096             0 100% /run/nvidia-ctk-hook81853bbe-cb66-4a48-85f7-b3f7b4dded2f
+tmpfs           540967104512             0  540967104512   0% /proc/acpi
+tmpfs           540967104512             0  540967104512   0% /proc/asound
+tmpfs           540967104512             0  540967104512   0% /proc/scsi
+tmpfs           540967104512             0  540967104512   0% /sys/devices/virtual/powercap
+tmpfs           540967104512             0  540967104512   0% /sys/firmware

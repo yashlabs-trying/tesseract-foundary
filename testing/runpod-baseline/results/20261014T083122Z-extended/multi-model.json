@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "models": [
+    {
+      "label": "3b",
+      "load_seconds": 2.953246124088764,
+      "cuda_memory_after_load_gib": 5.853966236114502
+    },
+    {
+      "label": "7b",
+      "load_seconds": 3.9145462960004807,
+      "cuda_memory_after_load_gib": 20.09872817993164
+    }
+  ],
+  "concurrent_e2e_seconds": 2.8302508927881718,
+  "per_model_seconds": {
+    "7b": 2.605252167209983,
+    "3b": 2.826112749055028
+  },
+  "peak_cuda_memory_gib": 20.121828079223633
+}
