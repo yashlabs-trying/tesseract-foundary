@@ -1,0 +1,15 @@
+{
+  "endpoint_id": "rrray9r9wbsbou",
+  "job_id": "5280f52d-6491-4206-a1d3-73c88acbea45-e2",
+  "status": "COMPLETED",
+  "model": "qwen/qwen2.5-7b-instruct",
+  "runtime": "vllm-0.31.0-97aafd4e",
+  "delay_time_ms": 52,
+  "execution_time_ms": 900,
+  "worker_id": "jdhkl1vmtc540k",
+  "prompt_tokens": 10,
+  "completion_tokens": 8,
+  "total_tokens": 18,
+  "output_text": "\nSERVERLESS_7B_OK",
+  "model_identity_verified": true
+}

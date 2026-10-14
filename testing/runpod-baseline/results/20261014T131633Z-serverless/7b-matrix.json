@@ -1,0 +1,592 @@
+{
+  "started_at_utc": "2026-10-14T13:29:06.220359+00:00",
+  "endpoint_id": "rrray9r9wbsbou",
+  "repeats": 2,
+  "tests": [
+    {
+      "requested_input_tokens": 128,
+      "requested_output_tokens": 128,
+      "client_e2e_seconds": 9.185838399920613,
+      "job": {
+        "delayTime": 1300,
+        "executionTime": 7088,
+        "id": "b6ded474-cebb-4b2b-8ffc-5b4792cfa0e7-e1",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984547,
+            "ec_transfer_params": null,
+            "id": "cmpl-85ff3421bff0db4a",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 128,
+              "completion_tokens_details": null,
+              "prompt_tokens": 127,
+              "prompt_tokens_details": null,
+              "total_tokens": 255
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 127,
+      "reported_completion_tokens": 128,
+      "repetition": 1
+    },
+    {
+      "requested_input_tokens": 128,
+      "requested_output_tokens": 128,
+      "client_e2e_seconds": 6.997555499896407,
+      "job": {
+        "delayTime": 54,
+        "executionTime": 5409,
+        "id": "77f47288-b2d2-45ba-bd5a-6dbc44c17dde-e1",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984556,
+            "ec_transfer_params": null,
+            "id": "cmpl-928c643dae4a46be",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 128,
+              "completion_tokens_details": null,
+              "prompt_tokens": 127,
+              "prompt_tokens_details": null,
+              "total_tokens": 255
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 127,
+      "reported_completion_tokens": 128,
+      "repetition": 2
+    },
+    {
+      "requested_input_tokens": 128,
+      "requested_output_tokens": 512,
+      "client_e2e_seconds": 21.204898100113496,
+      "job": {
+        "delayTime": 52,
+        "executionTime": 20157,
+        "id": "98a01d69-c22c-441c-9cbf-6f95ddecb2a4-e2",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984562,
+            "ec_transfer_params": null,
+            "id": "cmpl-997a8d349da666da",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 512,
+              "completion_tokens_details": null,
+              "prompt_tokens": 127,
+              "prompt_tokens_details": null,
+              "total_tokens": 639
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 127,
+      "reported_completion_tokens": 512,
+      "repetition": 1
+    },
+    {
+      "requested_input_tokens": 128,
+      "requested_output_tokens": 512,
+      "client_e2e_seconds": 21.108390500070527,
+      "job": {
+        "delayTime": 55,
+        "executionTime": 20097,
+        "id": "cfd3be8a-6a8a-45df-8e6c-01b8e9163b0d-e2",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984583,
+            "ec_transfer_params": null,
+            "id": "cmpl-97e8ed582d6992e3",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 512,
+              "completion_tokens_details": null,
+              "prompt_tokens": 127,
+              "prompt_tokens_details": null,
+              "total_tokens": 639
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 127,
+      "reported_completion_tokens": 512,
+      "repetition": 2
+    },
+    {
+      "requested_input_tokens": 1024,
+      "requested_output_tokens": 128,
+      "client_e2e_seconds": 6.065876699984074,
+      "job": {
+        "delayTime": 54,
+        "executionTime": 5524,
+        "id": "a46544a3-cb03-4f8a-8609-d2ad5ba838f4-e1",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984605,
+            "ec_transfer_params": null,
+            "id": "cmpl-a0e24cd8dbb4847f",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 128,
+              "completion_tokens_details": null,
+              "prompt_tokens": 1023,
+              "prompt_tokens_details": null,
+              "total_tokens": 1151
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 1023,
+      "reported_completion_tokens": 128,
+      "repetition": 1
+    },
+    {
+      "requested_input_tokens": 1024,
+      "requested_output_tokens": 128,
+      "client_e2e_seconds": 6.799856500001624,
+      "job": {
+        "delayTime": 54,
+        "executionTime": 5675,
+        "id": "8ef65aed-b75e-4afc-96ba-7ea9799825d3-e2",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984611,
+            "ec_transfer_params": null,
+            "id": "cmpl-837b1b6c1e1d9b3b",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 128,
+              "completion_tokens_details": null,
+              "prompt_tokens": 1023,
+              "prompt_tokens_details": null,
+              "total_tokens": 1151
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 1023,
+      "reported_completion_tokens": 128,
+      "repetition": 2
+    },
+    {
+      "requested_input_tokens": 1024,
+      "requested_output_tokens": 512,
+      "client_e2e_seconds": 21.36404910008423,
+      "job": {
+        "delayTime": 53,
+        "executionTime": 20508,
+        "id": "5f03809b-9aee-44b1-ad00-5a603e4e6026-e2",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token tokent token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984617,
+            "ec_transfer_params": null,
+            "id": "cmpl-9086bbec3e01a3b3",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 512,
+              "completion_tokens_details": null,
+              "prompt_tokens": 1023,
+              "prompt_tokens_details": null,
+              "total_tokens": 1535
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 1023,
+      "reported_completion_tokens": 512,
+      "repetition": 1
+    },
+    {
+      "requested_input_tokens": 1024,
+      "requested_output_tokens": 512,
+      "client_e2e_seconds": 21.44049309985712,
+      "job": {
+        "delayTime": 107,
+        "executionTime": 20425,
+        "id": "ce58a0fa-1ac8-464f-a587-4c8176ae9b0e-e1",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token tokent token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984639,
+            "ec_transfer_params": null,
+            "id": "cmpl-abb72612a98fa09b",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 512,
+              "completion_tokens_details": null,
+              "prompt_tokens": 1023,
+              "prompt_tokens_details": null,
+              "total_tokens": 1535
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 1023,
+      "reported_completion_tokens": 512,
+      "repetition": 2
+    },
+    {
+      "requested_input_tokens": 4096,
+      "requested_output_tokens": 128,
+      "client_e2e_seconds": 7.336244400124997,
+      "job": {
+        "delayTime": 55,
+        "executionTime": 6377,
+        "id": "c67fb27a-5746-44c6-8eef-5a5fc9e5b5bc-e1",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984660,
+            "ec_transfer_params": null,
+            "id": "cmpl-81f4d2a51d41647b",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 128,
+              "completion_tokens_details": null,
+              "prompt_tokens": 4095,
+              "prompt_tokens_details": null,
+              "total_tokens": 4223
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 4095,
+      "reported_completion_tokens": 128,
+      "repetition": 1
+    },
+    {
+      "requested_input_tokens": 4096,
+      "requested_output_tokens": 128,
+      "client_e2e_seconds": 7.251669799908996,
+      "job": {
+        "delayTime": 60,
+        "executionTime": 6423,
+        "id": "1480cbfd-1241-4f76-912a-78028676cbb0-e1",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984668,
+            "ec_transfer_params": null,
+            "id": "cmpl-b5587c504b26eace",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 128,
+              "completion_tokens_details": null,
+              "prompt_tokens": 4095,
+              "prompt_tokens_details": null,
+              "total_tokens": 4223
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 4095,
+      "reported_completion_tokens": 128,
+      "repetition": 2
+    },
+    {
+      "requested_input_tokens": 4096,
+      "requested_output_tokens": 512,
+      "client_e2e_seconds": 22.08375470014289,
+      "job": {
+        "delayTime": 55,
+        "executionTime": 21430,
+        "id": "c13538bf-64fc-477a-874b-9edaaa6d5d77-e2",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984675,
+            "ec_transfer_params": null,
+            "id": "cmpl-8dabe71688284971",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 512,
+              "completion_tokens_details": null,
+              "prompt_tokens": 4095,
+              "prompt_tokens_details": null,
+              "total_tokens": 4607
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 4095,
+      "reported_completion_tokens": 512,
+      "repetition": 1
+    },
+    {
+      "requested_input_tokens": 4096,
+      "requested_output_tokens": 512,
+      "client_e2e_seconds": 22.123350200010464,
+      "job": {
+        "delayTime": 54,
+        "executionTime": 21589,
+        "id": "a046fd7e-f72c-4717-a31b-d1bac082af6c-e1",
+        "output": [
+          {
+            "choices": [
+              {
+                "finish_reason": "length",
+                "index": 0,
+                "logprobs": null,
+                "prompt_logprobs": null,
+                "prompt_token_ids": null,
+                "routed_experts": null,
+                "stop_reason": null,
+                "text": " token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token token",
+                "token_ids": null
+              }
+            ],
+            "created": 1791984697,
+            "ec_transfer_params": null,
+            "id": "cmpl-871fd1a77acc3e5c",
+            "kv_transfer_params": null,
+            "metrics": null,
+            "model": "qwen/qwen2.5-7b-instruct",
+            "object": "text_completion",
+            "service_tier": null,
+            "system_fingerprint": "vllm-0.31.0-97aafd4e",
+            "usage": {
+              "completion_tokens": 512,
+              "completion_tokens_details": null,
+              "prompt_tokens": 4095,
+              "prompt_tokens_details": null,
+              "total_tokens": 4607
+            }
+          }
+        ],
+        "status": "COMPLETED",
+        "workerId": "jdhkl1vmtc540k"
+      },
+      "reported_prompt_tokens": 4095,
+      "reported_completion_tokens": 512,
+      "repetition": 2
+    }
+  ],
+  "finished_at_utc": "2026-10-14T13:31:59.201262+00:00",
+  "summary": {
+    "attempted": 12,
+    "completed": 12,
+    "failed": 0,
+    "client_e2e_p50_seconds": 15.14711444999557,
+    "client_e2e_p95_seconds": 22.123350200010464,
+    "client_e2e_p99_seconds": 22.123350200010464
+  }
+}
