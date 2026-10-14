@@ -4,6 +4,9 @@ set -Eeuo pipefail
 export HF_HOME="${HF_HOME:-/workspace/hf-cache}"
 export TRANSFORMERS_CACHE="${TRANSFORMERS_CACHE:-$HF_HOME/hub}"
 export TOKENIZERS_PARALLELISM=false
+# Some RunPod templates enable the optional transfer backend without installing
+# its Python package. Standard HTTP downloads are reliable for this small run.
+unset HF_HUB_ENABLE_HF_TRANSFER
 
 RUN_ID="$(date -u +%Y%m%dT%H%M%SZ)"
 RESULT_DIR="${RESULT_DIR:-results/$RUN_ID}"
