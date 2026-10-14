@@ -1,0 +1,33 @@
+{
+  "captured_at_utc": "2026-10-14T13:25:54.388Z",
+  "endpoint_id": "rrray9r9wbsbou",
+  "job_id": "9501b223-1686-4bb1-81fd-5fc82eea8e70-e1",
+  "submitted_input": {
+    "prompt": "Reply with exactly: SERVERLESS_7B_OK",
+    "sampling_params": {
+      "max_tokens": 8,
+      "temperature": 0.0
+    }
+  },
+  "initial_workers": {
+    "idle": 3,
+    "initializing": 0,
+    "ready": 3,
+    "running": 0,
+    "throttled": 0,
+    "unhealthy": 0
+  },
+  "last_observed_workers": {
+    "idle": 2,
+    "initializing": 0,
+    "ready": 2,
+    "running": 1,
+    "throttled": 0,
+    "unhealthy": 0
+  },
+  "last_observed_job_status": "IN_QUEUE",
+  "terminal_status": "CANCELLED",
+  "output": null,
+  "model_identity_verified": false,
+  "reason_for_cancellation": "Budget protection: endpoint exposed three billed workers and the single smoke job remained queued through the bounded observation window. No duplicate job was submitted."
+}
