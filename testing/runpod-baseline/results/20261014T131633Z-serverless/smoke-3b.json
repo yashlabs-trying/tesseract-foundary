@@ -1,0 +1,54 @@
+{
+  "captured_at_utc": "2026-10-14T13:16:33.309Z",
+  "endpoint_id": "heoxevv9ycs69w",
+  "job_id": "9a3b36e7-b9f4-4c07-bfc6-59a3bc9a58a3-e1",
+  "status": "COMPLETED",
+  "model": "qwen/qwen2.5-3b-instruct",
+  "runtime": "vllm-0.31.0-d239bef3",
+  "delay_time_ms": 188038,
+  "execution_time_ms": 579,
+  "worker_id": "pit7tq8r9ihw2d",
+  "prompt_tokens": 7,
+  "completion_tokens": 5,
+  "total_tokens": 12,
+  "output_text": "\nSERVERLESS_OK",
+  "initial_health": {
+    "jobs": {
+      "completed": 0,
+      "failed": 0,
+      "in_progress": 0,
+      "in_queue": 0,
+      "retried": 0
+    },
+    "workers": {
+      "idle": 1,
+      "initializing": 2,
+      "ready": 1,
+      "running": 0,
+      "throttled": 0,
+      "unhealthy": 0
+    }
+  },
+  "terminal_health": {
+    "jobs": {
+      "completed": 1,
+      "failed": 0,
+      "in_progress": 0,
+      "in_queue": 0,
+      "retried": 0
+    },
+    "workers": {
+      "idle": 0,
+      "initializing": 2,
+      "ready": 0,
+      "running": 1,
+      "throttled": 0,
+      "unhealthy": 0
+    }
+  },
+  "budget_safety": {
+    "catalog_ampere_24_serverless_usd_per_gpu_hour": 0.69,
+    "observed_worker_count": 3,
+    "benchmark_paused_until_workers_max_is_one": true
+  }
+}
