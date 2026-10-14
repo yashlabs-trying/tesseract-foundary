@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "started_at": "2026-10-14T08:13:51.675554+00:00",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "label": "qwen2.5-3b-instruct",
+  "dtype": "bfloat16",
+  "repetitions": 2,
+  "max_new_tokens": 64,
+  "environment": {
+    "hostname": "95ac1f772934",
+    "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.48.3",
+    "cuda_runtime": "12.8",
+    "gpu_before": {
+      "name": "NVIDIA GeForce RTX 3090",
+      "uuid": "GPU-be4320fd-a6c3-1bff-6490-464bbb31e111",
+      "memory.total": "24576",
+      "memory.used": "1",
+      "utilization.gpu": "0",
+      "power.draw": "38.10",
+      "temperature.gpu": "30",
+      "driver_version": "580.159.03"
+    },
+    "gpu_after": {
+      "name": "NVIDIA GeForce RTX 3090",
+      "uuid": "GPU-be4320fd-a6c3-1bff-6490-464bbb31e111",
+      "memory.total": "24576",
+      "memory.used": "6500",
+      "utilization.gpu": "29",
+      "power.draw": "148.43",
+      "temperature.gpu": "40",
+      "driver_version": "580.159.03"
+    }
+  },
+  "requests": [
+    {"repetition": 1, "prompt_index": 0, "input_tokens": 41, "output_tokens": 42, "latency_seconds": 1.846859436482191, "first_text_seconds": 0.1439038384705782, "output_tokens_per_second": 22.741308391070397, "peak_cuda_memory_gib": 5.8749589920043945, "success": true},
+    {"repetition": 1, "prompt_index": 1, "input_tokens": 54, "output_tokens": 64, "latency_seconds": 2.6912050880491734, "first_text_seconds": 0.09042414277791977, "output_tokens_per_second": 23.781167880591717, "peak_cuda_memory_gib": 5.876206398010254, "success": true},
+    {"repetition": 1, "prompt_index": 2, "input_tokens": 64, "output_tokens": 64, "latency_seconds": 2.972636954858899, "first_text_seconds": 0.13125192187726498, "output_tokens_per_second": 21.52970610669067, "peak_cuda_memory_gib": 5.876981735229492, "success": true},
+    {"repetition": 2, "prompt_index": 0, "input_tokens": 41, "output_tokens": 42, "latency_seconds": 2.048504412174225, "first_text_seconds": 0.15075932256877422, "output_tokens_per_second": 20.502762771900688, "peak_cuda_memory_gib": 5.8749589920043945, "success": true},
+    {"repetition": 2, "prompt_index": 1, "input_tokens": 54, "output_tokens": 64, "latency_seconds": 2.7828731928020716, "first_text_seconds": 0.09728485532104969, "output_tokens_per_second": 22.9978139735352, "peak_cuda_memory_gib": 5.876206398010254, "success": true},
+    {"repetition": 2, "prompt_index": 2, "input_tokens": 64, "output_tokens": 64, "latency_seconds": 3.0452080592513084, "first_text_seconds": 0.14935718104243279, "output_tokens_per_second": 21.01662636993512, "peak_cuda_memory_gib": 5.876981735229492, "success": true}
+  ],
+  "model_load_seconds": 56.11728763394058,
+  "model_memory_gib": 5.853966236114502,
+  "warmup_seconds": 1.040961280465126,
+  "summary": {
+    "request_count": 6,
+    "successful_requests": 6,
+    "median_latency_seconds": 2.7370391404256225,
+    "median_first_text_seconds": 0.13757788017392159,
+    "median_output_tokens_per_second": 22.135507248880536,
+    "max_peak_cuda_memory_gib": 5.876981735229492
+  },
+  "elapsed_seconds": 72.78409723192453,
+  "completed_at": "2026-10-14T08:15:04.459651+00:00"
+}
