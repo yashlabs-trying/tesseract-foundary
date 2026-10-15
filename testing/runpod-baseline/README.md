@@ -4,6 +4,14 @@ Budget-constrained, single-GPU baseline for a RunPod Pod. The suite records the
 environment, model download/load time, warm-up time, latency, approximate TTFT,
 generated tokens per second, and peak CUDA memory for pinned 3B and 7B models.
 
+## Published results
+
+- [Consolidated RunPod benchmark results](RUNPOD_BENCHMARK_RESULTS.md)
+- [Dedicated GPU Pod report](RUNPOD_POD_3B_7B_BASELINE.md)
+- [Serverless report](RUNPOD_SERVERLESS_3B_7B_BASELINE.md)
+- Raw Pod evidence: [`results/20261014T083122Z-extended`](results/20261014T083122Z-extended)
+- Raw Serverless evidence: [`results/20261014T131633Z-serverless`](results/20261014T131633Z-serverless)
+
 ## Scope
 
 - One GPU Pod only
